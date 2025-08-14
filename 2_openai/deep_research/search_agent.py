@@ -15,3 +15,8 @@ search_agent = Agent(
     model="gpt-4o-mini",
     model_settings=ModelSettings(tool_choice="required"),
 )
+
+search_tool = search_agent.as_tool(
+    tool_name="search",
+    tool_description="Summarize web search results for a given term"
+)

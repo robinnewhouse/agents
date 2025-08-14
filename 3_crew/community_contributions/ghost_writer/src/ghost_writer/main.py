@@ -15,35 +15,36 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 def run():
     
-    idea = """Write a deeply philosophical and emotionally resonant novel in the spirit of Zen and the Art of 
-    Motorcycle Maintenance, but from the perspective of a profoundly intelligent earthworm who perceives the world 
-    solely through the sense of touch.
-    
-    The worm—C. Lumbricus, a subterranean philosopher and soil cartographer—lives in the shadowy labyrinth beneath 
-    the surface, where all knowledge is felt, not seen. He cannot see color, light, or form. His understanding of 
-    the world is shaped entirely through pressure, texture, vibration, and weight. Each pebble is a poem. Each 
-    root is a question. Each rainfall is a moral dilemma.Over the course of the novel, C. Lumbricus embarks on a 
-    symbolic and literal journey through layers of soil, compost heaps, human-tilled gardens, and the strange 
-    violence of the surface world. As he tunnels, he reflects on the nature of self, consciousness, purpose, and 
-    impermanence, interpreting the subtle shifts in the earth like a blind monk reading scripture in Braille.
+    idea = """
+Write an epic, surreal, and exuberant novel chronicling the first-ever Burning Man held on the Moon, blending the 
+spirit of radical self-expression with hard science and speculative culture.
 
-    Themes to explore include:
-    - Identity without appearance: What does it mean to be when you cannot see yourself?
-    - Epistemology of pressure: How can truth be known through touch alone?
-    - Technology and interference: How do the mechanical intrusions of humans (shovels, tillers, pipes) disrupt 
-      the ancient wisdom of the earth?
-    - Dualism and wholeness: Through his regeneration after injury, C. Lumbricus contemplates the split between 
-      body and being.
-    - Love and resonance: The worm encounters another being whose vibrational pattern harmonizes with his own, and 
-      together they explore tactile connection beyond utility.
+The story follows a diverse cast—astronaut artists, lunar engineers, techno shamans, and cosmic DJs—who converge 
+at Mare Serenitatis for a weeklong festival unlike anything humanity has ever attempted. Camps sprawl across 
+regolith dunes. Lunar rovers tow mobile sound stages. Low-gravity dance parties erupt in slow-motion euphoria. 
+Massive reflective sculptures catch Earthrise, turning each dawn into a transcendent ritual.
 
-    The tone is meditative, poetic, and layered with metaphor. The worm’s limitations shape the form of the prose 
-    itself—imagery becomes metaphor made tactile. Light is never described. Instead, insight is a loosening of 
-    compacted clay. Despair is the collapse of a burrow. Revelation is the warm pressure of composted moss.
+As the festival progresses, logistical challenges—life support glitches, dust storms, fuel shortages—force the 
+community to work together, highlighting radical interdependence. Meanwhile, an enigmatic artifact is discovered 
+beneath the festival grounds: a buried monolith emitting faint signals that sync perfectly with the festival’s 
+music and heartbeat.
 
-    Let the novel not simply be about a worm, but about what it means to know, to feel meaning in a dark, 
-    indifferent world, and to press forward—segment by segment—in search of coherence, even when no eyes will ever 
-    see the map you leave behind."""
+Themes to explore include:
+- Radical community beyond Earth: How do Burning Man’s principles adapt when survival literally depends on 
+  collaboration?
+- Art as exploration: How does creative expression redefine humanity’s relationship with the Moon?
+- Frontier spirituality: How do participants reconcile the sacred and the absurd in a place where humans were 
+  never meant to exist?
+- Earth nostalgia: As festival-goers look back at the blue marble floating in space, what new perspective on 
+  home and belonging emerges?
+
+The tone is wild, kinetic, and luminous, capturing both the sensory overload of a lunar carnival and the quiet awe 
+of standing on another world. Prose should weave together technical detail (habitats, suits, rovers) with ecstatic, 
+poetic descriptions of lunar raves, microgravity art, and silent sunrise meditations on the regolith.
+
+Let the novel celebrate the joy, absurdity, and fierce hope of building community—even on the Moon—and explore what 
+it means to bring the fire of human culture to the cold, ancient surface of another world.
+"""
 
     inputs = {
         'idea': idea,

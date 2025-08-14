@@ -21,3 +21,8 @@ planner_agent = Agent(
     model="gpt-4o-mini",
     output_type=WebSearchPlan,
 )
+
+planner_tool = planner_agent.as_tool(
+    tool_name="planner",
+    tool_description="Create a focused search plan given query and clarifications"
+)
